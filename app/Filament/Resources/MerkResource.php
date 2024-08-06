@@ -40,7 +40,7 @@ class MerkResource extends Resource
     {
         return $table
             ->columns([
-                TextColumn::make('nama_merk')->searchable(),
+                TextColumn::make('nama_merk'),
             ])
             ->filters([
                 //
